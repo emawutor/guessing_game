@@ -101,6 +101,11 @@
           // structs dont have a provided implementation of display unless you use {:?}
           // #[derive(Debug)] : used in debugging
           // or use {:#?} in bigger outputs
+          // structs may be instantiated let origin = Point { x: 0. y:0}
+          // structs are accessed with dot notation
+          // structs are private by default but can be made public using (pub)
+          // modules are name spaced with structs that are defined within
+          // updating structs you, reassing the values
         // Methods syntax
           // impl used define a method within an object
           // rare that a method takes ownership of an object
