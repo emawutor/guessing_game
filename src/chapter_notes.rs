@@ -1,3 +1,5 @@
+// Libraries are reusable bits of code that don't do anything on their own, binaries are bits of code that you can execute and often use libraries.
+
 // chapter 3: Common Programming Concepts
   // use mut in front of a variable in order to change it in the future
   // variables in general are immutable in Rust
@@ -206,6 +208,14 @@
   // Chapter 10: Generic Types, Traits, and Lifetimes
       // <T> to instantiate a genric; you pass that generic value to your function or variable type with what data type that coincide with the function or variable
 
+  // Previous_hash, Timestamp, Nonce, Transaction root / also called a merkel: filled with a bunch of transaction
+    // difficulty dictates how many leading zeros one has in front of a block
+    // a random string that's added to sensitive data before encryption, to make the ciphertext less distinguishable
+    // Nonce is a value that gets used once and never again
+
+  // Traits: Defining Shared Behavior
+    //  #[dervive{clone, debug}]
+    // Traits are access to do perform an action: methods do the same as well
 
 
 
